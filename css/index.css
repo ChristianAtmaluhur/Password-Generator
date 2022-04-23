@@ -62,6 +62,7 @@ button {
     line-height: 24px;
     color: #fff;
     margin-bottom: 35px;
+    cursor: pointer;
 }
 
 button img {
@@ -94,6 +95,9 @@ button img {
     align-items: center;
     margin-bottom: 2px;
     color: #fff;
+    border: none;
+    text-align: center;
+    color: #5DEF92;
 }
 
 .box img {

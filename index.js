@@ -6,14 +6,11 @@ const boxs = document.querySelectorAll('.box')
 generateBtn.addEventListener('click', () => {
     boxs.forEach(box => {
         generate(box)
-        if(box.textContent.length > 17) {
-            box.textContent = ''
-            generate(box)
-        }
     });
 });
 
 function generate(box) {
+    box.textContent = ''
     for(let i = 0; i < 16; i++) {
         const num = Math.floor(Math.random() * 94)
         const char = chars[num]
